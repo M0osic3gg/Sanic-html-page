@@ -1,0 +1,31 @@
+* {
+  background-color: rgb(181,230,29);
+}
+h1{
+  margin-left: 45%;
+}
+#cumon {
+  margin-left: 70%;
+}
+#sanic {
+  top: 0;
+  padding: 0%;
+  animation: 0.8s infinite ran;
+}
+@keyframes ran {
+  0% {
+    transform: rotate(0deg) skew(20deg, 0deg);
+  }
+  25% {
+    transform: rotate(90deg) skew(40deg, -40deg);
+  }
+  50% {
+    transform: rotate(180deg) skew(35deg, 20deg);
+  }
+  75%{
+    transform: rotate(270deg) skew(20deg, -30deg);
+  }
+  100% {
+    transform: rotate(360deg) skew(20deg, 0deg);
+  }
+}
